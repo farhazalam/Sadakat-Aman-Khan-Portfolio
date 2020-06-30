@@ -1,32 +1,59 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <app-appbar></app-appbar>
+    <v-content>
+      <transition name="slide" mode="out-in">
+        <router-view></router-view>
+      </transition>
+    </v-content>
+  </v-app>
 </template>
 
+<script>
+import Appbar from "../src/components/Appbar";
+
+export default {
+  components: {
+    appAppbar: Appbar
+  }
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+html, 
+body {
+    overflow-x: hidden;
+}
+.slide-leave-active {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  animation: slide-out 0.5s ease-out forwards;
 }
 
-#nav {
-  padding: 30px;
+.slide-leave {
+  opacity: 1;
+  transform: translateX(0);
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.slide-enter-active {
+  animation: slide-in 0.5s ease-out forwards;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+@keyframes slide-out {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 </style>
