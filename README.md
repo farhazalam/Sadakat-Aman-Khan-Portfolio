@@ -1,4 +1,4 @@
-# SADAKAT AMAN KHAN PORTFOLIO
+## SADAKAT AMAN KHAN PORTFOLIO
 
 ![Vue](https://img.shields.io/badge/vue-4.4.4-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/farhazalam/Sadakat-Aman-Khan-Portfolio)
@@ -12,7 +12,7 @@ A portfolio website of Sadakat Aman Khan(Young harmonium Player) made using Vue 
 
 You can check out the website by clicking the link below
 
-[#CLICK HERE](https://sadakat.netlify.app)
+#[CLICK HERE](https://sadakat.netlify.app)
 
 ## Installation
 
