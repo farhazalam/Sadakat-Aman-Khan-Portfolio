@@ -12,7 +12,7 @@ module.exports = {
             msTileImage: 'favicon.png',
         }
     },
-    publicPath: process.env.NODE_ENV === "production" ? "/dist/" : "/",
+    // publicPath: process.env.NODE_ENV === "production" ? "/dist/" : "/",
     productionSourceMap: process.env.NODE_ENV == "production" ? false : true,
     configureWebpack: {
         performance: {
