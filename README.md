@@ -12,7 +12,7 @@ A portfolio website of Sadakat Aman Khan(Young harmonium Player) made using Vue 
 
 You can check out the website by clicking the link below
 
-#[CLICK HERE](https://sadakat.netlify.app)
+[CLICK HERE](https://sadakat.netlify.app)
 
 ## Installation
 
