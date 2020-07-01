@@ -1,5 +1,4 @@
-# Quizzo
-> A Quiz App. 
+# SADAKAT AMAN KHAN PORTFOLIO
 
 ![Vue](https://img.shields.io/badge/vue-4.4.4-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/farhazalam/Sadakat-Aman-Khan-Portfolio)
