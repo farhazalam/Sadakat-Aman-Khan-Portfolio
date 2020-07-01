@@ -20,9 +20,16 @@ export default {
 </script>
 
 <style>
-html, 
+@font-face {
+  font-family: "samarkan";
+  src: url("./assets/samarkan-webfont.woff2") format("woff2"),
+    url("./assets/samarkan-webfont.woff") format("woff"),
+    url("./assets/samarkan-webfont.ttf") format("truetype");
+}
+
+html,
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 .slide-leave-active {
   transition: opacity 0.5s ease;

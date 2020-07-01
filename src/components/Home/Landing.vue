@@ -5,11 +5,17 @@
       <div class="center-heading text-center text-no-wrap">
         <app-icon class="hidden-md-and-up"></app-icon>
         <div
-          class="text-lg-h2 text-md-h2 text-h5 font-weight-medium white--text main-heading"
-        >{{title}}</div>
+          class="white--text main-heading"
+          :class="{'text-h7': $vuetify.breakpoint.smAndDown, 'text-h4': $vuetify.breakpoint.mdAndUp}"
+        >
+          <h1>{{title}}</h1>
+        </div>
         <div
-          class="text-lg-subtitle-1 text-md-subtitle-1 text-caption white--text sub-heading"
-        >{{subtitle}}</div>
+          class="white--text sub-heading"
+          :class="{'text-caption': $vuetify.breakpoint.smAndDown, 'text-subtitle-2': $vuetify.breakpoint.mdAndUp}"
+        >
+          <h4>{{subtitle}}</h4>
+        </div>
       </div>
     </v-img>
   </div>
@@ -31,17 +37,23 @@ export default {
 </script>
 
 <style scoped>
-
 .center-heading {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.main-heading,
 .sub-heading {
   letter-spacing: 3px !important;
   font-family: "Montserrat", sans-serif !important;
-  
+  padding-top: 10px;
+}
+.main-heading {
+  font-family: "samarkan", sans-serif !important;
+}
+@media screen and (max-width: 960px) {
+  .sub-heading {
+    padding-top: 0px;
+  }
 }
 </style>

@@ -19,8 +19,8 @@
         <div>{{desc2}}</div>
       </v-flex>
     </v-layout>
-    <section id="gurus" class="purple lighten-5 text-center pt-8 mt-5 pb-10">
-      <div class="text-h4 mb-4 purple--text font-weight-medium">MY GURUS</div>
+    <section id="gurus" class="purple lighten-5 pt-8 mt-5 pb-10">
+      <div class="text-h4 mb-4 purple--text font-weight-medium text-center">MY GURUS</div>
       <v-layout row align-center justify-center v-for="item in gurus" :key="item.url">
         <v-flex md6 xs12 pa-8>
           <v-img :src="item.url" aspect-ratio="1.5" contain>
@@ -37,14 +37,18 @@
         </v-flex>
       </v-layout>
     </section>
+    <app-commonfooter></app-commonfooter>
   </div>
 </template>
 
 <script>
 import Topbar from "../components/Topbar.vue";
+import Commonfooter from "../components/CommonFooter";
 export default {
   components: {
     appTopbar: Topbar
+    ,
+    appCommonfooter: Commonfooter,
   },
   data() {
     return {
@@ -74,3 +78,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#gurus{
+  padding-bottom: 8vh !important;
+}
+</style>

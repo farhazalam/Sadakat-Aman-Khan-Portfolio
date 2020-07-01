@@ -55,13 +55,16 @@
         </v-btn>
       </v-overlay>
     </section>
+    <app-commonfooter></app-commonfooter>
   </div>
 </template>
 <script>
 import Topbar from "../components/Topbar";
+import Commonfooter from "../components/CommonFooter";
 export default {
   components: {
-    appTopbar: Topbar
+    appTopbar: Topbar,
+    appCommonfooter: Commonfooter
   },
   methods: {
     large(i) {

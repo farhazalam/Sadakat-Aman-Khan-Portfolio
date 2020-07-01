@@ -38,7 +38,8 @@ const routes = [{
         name: 'Videos',
         component: () =>
             import ('../views/Videos.vue')
-    }
+    },
+    { path: '*', redirect: '/' }
 ]
 
 const router = new VueRouter({

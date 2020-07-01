@@ -24,17 +24,15 @@
         <v-flex md12 xs12 class="text-center px-5">
           <h2>
             {{newRelease.title}}
-            
-              <v-btn
-                color="red white darken-1 white--text text-center youtube-link"
-                class="pl-2"
-                small
-                :href=newRelease.videoUrl
-                target="_blank"
-              >
-                <v-icon class="pr-2" small>fa fa-youtube-play</v-icon>WATCH NOW
-              </v-btn>
-           
+            <v-btn
+              color="red white darken-1 white--text text-center youtube-link"
+              class="pl-2"
+              small
+              :href="newRelease.videoUrl"
+              target="_blank"
+            >
+              <v-icon class="pr-2" small>fa fa-youtube-play</v-icon>WATCH NOW
+            </v-btn>
           </h2>
         </v-flex>
         <v-flex md12 xs12 class="text-center px-5 pt-6">
@@ -82,12 +80,6 @@
     </section>
     <v-footer dark padless>
       <v-card flat tile class="purple lighten-5 black--text text-center" width="100vw">
-        <v-card-text>
-          <v-btn v-for="icon in icons" :key="icon" class="mx-4 black--text" icon>
-            <v-icon size="24px">{{ icon }}</v-icon>
-          </v-btn>
-        </v-card-text>
-
         <v-layout row class="px-12">
           <v-flex v-for="(item,index) in footer" :key="item.title" md4 xs12 class="px-5 py-3">
             <v-card-text class="black--text pt-0 font-weight-medium">{{item.title}}</v-card-text>

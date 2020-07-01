@@ -29,10 +29,11 @@ export default {
       drawer: false,
       items: [
         { title: "Home", icon: "mdi-home", path: "/" },
-         { title: "About", icon: "mdi-information", path: "/about" },
+        { title: "About", icon: "mdi-information", path: "/about" },
         { title: "Gallery", icon: "mdi-image", path: "/gallery" },
         { title: "Discography", icon: "mdi-music", path: "/discography" },
-         { title: "Videos", icon: "mdi-video", path: "/videos" },
+        { title: "Videos", icon: "mdi-video", path: "/videos" },
+        { title: "Contact", icon: "mdi-phone", path: "/contact" }
       ]
     };
   },

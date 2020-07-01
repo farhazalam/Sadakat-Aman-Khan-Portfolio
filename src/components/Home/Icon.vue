@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mt-2 text-center">
-      <span v-for="(item) in icons" :key="item" class="ml-2">
+      <span v-for="(item) in icons" :key="item.url" class="ml-2">
         <v-btn color="purple darken-1" icon :href="item.source" target="_blank">
           <span class="border-circle">
             <v-icon class="icon-size">{{item.url}}</v-icon>

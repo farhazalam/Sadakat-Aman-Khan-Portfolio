@@ -6,7 +6,13 @@
         <v-flex v-for="(n,i) in discography" :key="n.url" md4 xs12 class="px-5 py-3">
           <div class="new-tag red px-2 font-weight-medium" v-if="i==0">NEW</div>
           <v-hover v-slot:default="{ hover }">
-            <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" class="image-single">
+            <v-card
+              :elevation="hover ? 12 : 2"
+              :class="{ 'on-hover': hover }"
+              class="image-single"
+              :href="n.source"
+              target="_blank"
+            >
               <v-img :src="n.url" aspect-ratio="1.5" class="grey lighten-2 small-image-hover">
                 <template v-slot:placeholder>
                   <v-row class="fill-height ma-0" align="center" justify="center">
@@ -20,13 +26,16 @@
         </v-flex>
       </v-layout>
     </section>
+    <app-commonfooter></app-commonfooter>
   </div>
 </template>
 <script>
 import Topbar from "../components/Topbar";
+import Commonfooter from "../components/CommonFooter";
 export default {
   components: {
-    appTopbar: Topbar
+    appTopbar: Topbar,
+    appCommonfooter: Commonfooter
   },
   data() {
     return {
@@ -34,17 +43,20 @@ export default {
         {
           title: "Ab Na Manoon Tori Batiyan",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album-art.jpg?alt=media&token=d66446ff-c775-4e07-a3cb-8a58afead55f"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album-art.jpg?alt=media&token=d66446ff-c775-4e07-a3cb-8a58afead55f",
+          source: "https://www.youtube.com/watch?v=-RRggfLx6_8"
         },
         {
           title: "Wander Lust",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album2.jpg?alt=media&token=81dd56a9-e468-45a6-83d2-0018167e7753"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album2.jpg?alt=media&token=81dd56a9-e468-45a6-83d2-0018167e7753",
+          source: "http://smarturl.it/wonderlust"
         },
         {
           title: "Alaap Vol. 1",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album1.jpg?alt=media&token=3632fbbc-0004-444f-80b8-e035cdf7a73b"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album1.jpg?alt=media&token=3632fbbc-0004-444f-80b8-e035cdf7a73b",
+          source: "http://smarturl.it/alaap"
         }
       ]
     };
@@ -52,6 +64,9 @@ export default {
 };
 </script>
 <style scoped>
+#gallery{
+  padding-bottom: 8vh !important;
+}
 .image-single {
   cursor: pointer;
 }

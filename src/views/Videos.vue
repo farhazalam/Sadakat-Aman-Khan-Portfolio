@@ -15,13 +15,16 @@
         </v-flex>
       </v-layout>
     </section>
+    <app-commonfooter></app-commonfooter>
   </div>
 </template>
 <script>
-import Topbar from "../components/Topbar"
+import Topbar from "../components/Topbar";
+import Commonfooter from "../components/CommonFooter";
 export default {
     components:{
         appTopbar: Topbar,
+        appCommonfooter:  Commonfooter
     },
   data() {
     return {
