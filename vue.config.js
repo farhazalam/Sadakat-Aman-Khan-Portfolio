@@ -3,7 +3,7 @@ module.exports = {
         "vuetify"
     ],
     pwa: {
-        name: 'favicon',
+        name: 'Sadakat Aman  Khan',
         iconPaths: {
             favicon32: 'favicon.png',
             favicon16: 'favicon.png',
