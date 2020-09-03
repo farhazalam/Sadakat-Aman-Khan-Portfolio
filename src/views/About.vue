@@ -1,6 +1,6 @@
 <template>
   <div>
-    <app-topbar heading="ABOUT US"></app-topbar>
+    <app-topbar heading="ABOUT ME"></app-topbar>
     <section id="about-me" class="white text-center"></section>
     <v-layout row align-center justify-center>
       <v-flex md6 xs12 pa-8>

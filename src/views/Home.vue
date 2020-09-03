@@ -2,7 +2,7 @@
   <div>
     <app-landing></app-landing>
     <section id="about" class="white text-center">
-      <div class="text-h4 mb-6 purple--text font-weight-medium">SHORT BIO</div>
+      <div class="text-h4 mb-6 purple--text font-weight-medium">ABOUT ME</div>
       <div class="text-body-2 mb-4">{{bio}}</div>
       <v-btn color="purple darken-1 white--text" to="/about">KNOW MORE</v-btn>
     </section>
