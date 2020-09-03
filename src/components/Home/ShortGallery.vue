@@ -93,28 +93,28 @@ export default {
       gallery: [
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/80787197_3299407063462813_3204293667242115072_o.jpg?alt=media&token=65d70c31-72cf-4333-b0e1-e9509b57f25d",
-          cap: "WALID SAHAB"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2F118193170_101904778314745_7026871538778672925_n.jpg?alt=media&token=6eead52a-f5f0-4c32-b5a9-3610f77f1de8",
+          cap: ""
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/64862776_2761250417278483_3814311153648009216_o.jpg?alt=media&token=598b2da2-f31f-4c27-9a5b-cb865363f51e",
-          cap: "PIANO IN TAIWAN"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN0574.jpg?alt=media&token=75794f50-f09d-4cbe-817d-73a490208dfc",
+          cap: ""
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/38885484_2088419007894964_4948027102105436160_n.jpg?alt=media&token=76e07a53-6859-4d16-8199-fb58b82bb17e",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1249.jpg?alt=media&token=73cc88ae-2049-4fef-9ff5-72dc567b4ff7",
+          cap: ""
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/23275507_1666634853406717_3479021680132331532_o.jpg?alt=media&token=0b886113-d887-4979-8bae-eb7ece9adc9f",
-          cap: "MELODICA IN FRESHERS"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1253.jpg?alt=media&token=5baab200-9d03-41fa-88a0-744ef240ff08",
+          cap: ""
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/18057986_1419083641495174_2531320089680576308_n.jpg?alt=media&token=d91cf5ef-48c1-4bbc-a6f8-d1cd1208d55e",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1255.jpg?alt=media&token=84664b37-24df-4e76-919d-8316046aef97",
+          cap: ""
         }
       ]
     };

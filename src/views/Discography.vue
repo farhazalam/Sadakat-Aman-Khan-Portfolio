@@ -13,7 +13,7 @@
               :href="n.source"
               target="_blank"
             >
-              <v-img :src="n.url" aspect-ratio="1.5" class="grey lighten-2 small-image-hover">
+              <v-img :src="n.url" aspect-ratio="1.5" class="grey lighten-2 small-image-hover" contain>
                 <template v-slot:placeholder>
                   <v-row class="fill-height ma-0" align="center" justify="center">
                     <v-progress-circular indeterminate color="purple lighten-2"></v-progress-circular>
@@ -41,23 +41,18 @@ export default {
     return {
       discography: [
         {
+          title: "Vocal Classical Music",
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FFinal%20Cover.jpg?alt=media&token=38573819-ac47-4af1-93f7-72ecdcb33956",
+          source: ""
+        },
+        {
           title: "Ab Na Manoon Tori Batiyan",
           url:
             "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album-art.jpg?alt=media&token=d66446ff-c775-4e07-a3cb-8a58afead55f",
           source: "https://www.youtube.com/watch?v=-RRggfLx6_8"
         },
-        {
-          title: "Wander Lust",
-          url:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album2.jpg?alt=media&token=81dd56a9-e468-45a6-83d2-0018167e7753",
-          source: "http://smarturl.it/wonderlust"
-        },
-        {
-          title: "Alaap Vol. 1",
-          url:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/album1.jpg?alt=media&token=3632fbbc-0004-444f-80b8-e035cdf7a73b",
-          source: "http://smarturl.it/alaap"
-        }
+        
       ]
     };
   }

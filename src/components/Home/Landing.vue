@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-img src="@/assets/1.jpg" max-height="100vh" alt="Sadakat Aman Khan">
+    <v-img src="@/assets/2.jpg" max-height="100vh" alt="Sadakat Aman Khan">
       <app-icon class="hidden-sm-and-down"></app-icon>
       <div class="center-heading text-center text-no-wrap">
         <app-icon class="hidden-md-and-up"></app-icon>
@@ -14,7 +14,7 @@
           class="white--text sub-heading"
           :class="{'text-caption': $vuetify.breakpoint.smAndDown, 'text-subtitle-2': $vuetify.breakpoint.mdAndUp}"
         >
-          <h4>{{subtitle}}</h4>
+          <!-- <h4>{{subtitle}}</h4> -->
         </div>
       </div>
     </v-img>
@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      title: "MR. HARMONIUM",
+      title: "SAHADAT RANA KHAN",
       subtitle: "SADAKAT AMAN KHAN "
     };
   }

@@ -110,7 +110,7 @@
 
         <v-card-text class="black--text purple lighten-3">
           {{ new Date().getFullYear() }}
-          Mr. Harmonium. All rights reserved.
+          Sahadat Rana Khan. All rights reserved.
         </v-card-text>
       </v-card>
     </v-footer>
@@ -125,7 +125,7 @@ export default {
   data() {
     return {
       bio:
-        "Sadakat Aman Khan (born 11th August 1997), is an Indian Classical Musician from Maldah, West Bengal. He is a solo harmonium player and a harmonium accompanist. He belongs to a 'Gharana'(heritage) which is...",
+        "Sahadat Rana Khan (born 1965) is an Indian Classical Musician from Maldah, West Bengal. He belongs to a 'Gharana'(heritage) which is the pathfinder of Ustad Bade Ghulam Ali Khan Sahab (Kasur Patiyala). He started learning music from his father, Sangeetacharya Ustad Md Yunus Khan and from his uncle Ustad Abdul Khaleque Khan. After his father's death, he took taalim from the legendary stalwart, Ustad Rashid Khan and lately from Agra Gharana's torch bearer Ustad Waseem Ahmed Khan (Guru ITC Sangeet Research Academy). He holds a Master Degree in Indian Classical Vocal from the prestitgious Bangiya Sangeet Parishad.",
       newRelease: {
         title: "Ab Na Manoon Tori Batiyan",
         url:
@@ -135,11 +135,11 @@ export default {
         videoUrl: "https://www.youtube.com/watch?v=-RRggfLx6_8"
       },
       videos: [
-        "https://www.youtube.com/embed/u845sFTxR9I",
-        "https://www.youtube.com/embed/gdF9GStzDng",
-        "https://www.youtube.com/embed/94F4keYnaTY",
-        "https://www.youtube.com/embed/QYbHURzuPCE",
-        "https://www.youtube.com/embed/RqTBbXS-eHo"
+        "https://www.youtube.com/embed/eAvuLfFu4zo",
+        "https://www.youtube.com/embed/-RRggfLx6_8",
+        "https://www.youtube.com/embed/hJzL_3mjcu4",
+        "https://www.youtube.com/embed/uGMexxDvawo",
+        "https://www.youtube.com/embed/OVVDjaGNlX4" 
       ],
       footer: [
         {
@@ -154,8 +154,8 @@ export default {
         },
         {
           title: "CONTACT INFO",
-          line1: "Phone : +91 7384565982",
-          line2: "Email : sadakatamankhan@gmail.com"
+          line1: "Phone : +91 9434166007",
+          line2: "Email : contact@sahadatranakhan.com"
         }
       ]
     };

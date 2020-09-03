@@ -6,12 +6,7 @@
         <v-flex v-for="(n,i) in gallery" :key="n.uri" md4 xs12 class="px-5 py-3" @click="large(i)">
           <v-hover v-slot:default="{ hover }">
             <v-card class="transparent" flat>
-              <v-img
-                :src="n.uri"
-                aspect-ratio="1.5"
-                class="transparent small-image-hover"
-                contain
-              >
+              <v-img :src="n.uri" aspect-ratio="1.5" class="transparent small-image-hover" contain>
                 <v-expand-transition>
                   <div
                     v-if="hover"
@@ -64,7 +59,7 @@ import Commonfooter from "../components/CommonFooter";
 export default {
   components: {
     appTopbar: Topbar,
-    appCommonfooter: Commonfooter
+    appCommonfooter: Commonfooter,
   },
   methods: {
     large(i) {
@@ -87,7 +82,7 @@ export default {
         this.current += 1;
       }
       console.log(this.current);
-    }
+    },
   },
   data() {
     return {
@@ -96,96 +91,86 @@ export default {
       gallery: [
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/18057986_1419083641495174_2531320089680576308_n.jpg?alt=media&token=d91cf5ef-48c1-4bbc-a6f8-d1cd1208d55e",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2F118193170_101904778314745_7026871538778672925_n.jpg?alt=media&token=6eead52a-f5f0-4c32-b5a9-3610f77f1de8",
+          cap: "",
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/19417233_1497079383695599_6088542797195197989_o.jpg?alt=media&token=55689002-b34a-4c34-ad1c-71cb7769544d",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN0574.jpg?alt=media&token=75794f50-f09d-4cbe-817d-73a490208dfc",
+          cap: "",
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/20786049_1563943603675843_969732879241500690_o.jpg?alt=media&token=a4794a4d-5d7d-4bda-852a-f7ab3503ac43",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1249.jpg?alt=media&token=73cc88ae-2049-4fef-9ff5-72dc567b4ff7",
+          cap: "",
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/23275507_1666634853406717_3479021680132331532_o.jpg?alt=media&token=0b886113-d887-4979-8bae-eb7ece9adc9f",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1253.jpg?alt=media&token=5baab200-9d03-41fa-88a0-744ef240ff08",
+          cap: "",
         },
         {
           uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/23550364_1671904262879776_8209022697587804688_o.jpg?alt=media&token=7cd55d83-62b5-4c1d-af64-fba5f324762a",
-          cap: "HARMONIUM"
+            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1255.jpg?alt=media&token=84664b37-24df-4e76-919d-8316046aef97",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/26170500_1728404793896389_8151788611884625619_o.jpg?alt=media&token=df28f6f4-9e57-4f28-ae4a-f9534c6852cc",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FDSCN1259.jpg?alt=media&token=ba2698e6-c8a5-4d91-a62d-3ba6f60faaf4",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/28336644_1808281982575336_3615144649974908154_o.jpg?alt=media&token=2c215c81-5efa-4335-98b4-2f94803279a7",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FFinal%20Cover.jpg?alt=media&token=38573819-ac47-4af1-93f7-72ecdcb33956",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/28616868_1822608224476045_2688443179082158944_o.jpg?alt=media&token=f51f75ee-c23f-4b34-91c8-33a801d19886",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FGandha%20Bandhan.jpg?alt=media&token=cb4b0a2f-5ca0-4563-a502-1ac56ccc9ea6",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/35347214_1975700192500180_1870010034620989440_o.jpg?alt=media&token=fc761dda-5f4d-453e-ba7d-79cb8a2eaabe",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG20200213235104.jpg?alt=media&token=2515abad-f607-42aa-9fb7-11f507fba941",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/38851735_2087955944607937_3116949949590274048_o.jpg?alt=media&token=0cfa2958-4bae-48d2-b9d2-e659fe0cce59",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_0363.jpg?alt=media&token=8bace883-564f-4f68-855a-c63e81b5d48c",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/38885484_2088419007894964_4948027102105436160_n.jpg?alt=media&token=76e07a53-6859-4d16-8199-fb58b82bb17e",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_0375.jpg?alt=media&token=61cb6350-3f49-48fb-9d30-72ad38ab2a1e",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/44464174_2226058070797723_7704365490080055296_o.jpg?alt=media&token=2f25cf09-d5b4-4599-af35-6e88f77852e2",
-          cap: "HARMONIUM"
-        },
-
-        {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/64862776_2761250417278483_3814311153648009216_o.jpg?alt=media&token=598b2da2-f31f-4c27-9a5b-cb865363f51e",
-          cap: "HARMONIUM"
-        },
-
-        {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/75534807_3168958319841022_3837443529676685312_o.jpg?alt=media&token=ae5a9d8c-0b1b-4069-acfe-eddb022ec142",
-          cap: "HARMONIUM"
-        },
-
-        {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/80787197_3299407063462813_3204293667242115072_o.jpg?alt=media&token=65d70c31-72cf-4333-b0e1-e9509b57f25d",
-          cap: "HARMONIUM"
-        },
-
-        {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/81465153_3313711675365685_6824688902901596160_o.jpg?alt=media&token=3059b0e8-8aa1-4237-9056-7d93757f5ce0",
-          cap: "HARMONIUM"
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_0785.jpg?alt=media&token=fe75ce39-8f49-4957-8534-4960f450cced",
+          cap: "",
         },
         {
-          uri:
-            "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/83671802_3401108206626031_334679017233842176_o.jpg?alt=media&token=4b8b1c36-9bc2-4a13-9d81-620f9687288a",
-          cap: "HARMONIUM"
-        }
-      ]
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_1379.jpg?alt=media&token=d0d6ffa0-bd49-4db1-9efa-6452e76d52ca",
+          cap: "",
+        },
+        {
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_4283.jpg?alt=media&token=a8e1e527-a344-43af-9ed9-c86c73a68d04",
+          cap: "",
+        },
+        {
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_4295.jpg?alt=media&token=7ad67a2a-6faf-4ade-9a28-442eb9505eea",
+          cap: "",
+        },
+        {
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_4386.jpg?alt=media&token=413e89b2-91f5-4eff-b3b2-c3c484afe63a",
+          cap: "",
+        },
+        {
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_4395.jpg?alt=media&token=376588a8-a82b-4c27-bc94-d6f57b616a16",
+          cap: "",
+        },
+        {
+          uri: "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FIMG_4411.jpg?alt=media&token=87d67475-3d97-4c93-b4dd-cdb0026f8f6e",
+          cap: "",
+        },
+        
+        
+      ],
     };
-  }
+  },
 };
 </script>
 

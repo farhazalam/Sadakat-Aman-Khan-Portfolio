@@ -4,7 +4,7 @@
     <v-navigation-drawer app v-model="drawer" temporary class="purple darken-2" dark>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title>Mr. Harmonium</v-list-item-title>
+          <v-list-item-title>Sahadat Rana Khan</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
       <v-divider></v-divider>

@@ -16,35 +16,35 @@ export default {
   data() {
     return {
       icons: [
-        {
-          url: "fa fa-spotify",
-          source: "https://open.spotify.com/artist/1bi2oXy3vJ90R9SoK2WxQV"
-        },
-        {
-          url: "fa fa-apple",
-          source:
-            "https://music.apple.com/us/artist/sadakat-aman-khan/1516537088"
-        },
-        {
-          url: "fa fa-amazon",
-          source:
-            "https://music.amazon.com/artists/B089LXJ8J6?tab=CATALOG&ref=dm_wcp_artist_link_pr_s"
-        },
+        // {
+        //   url: "fa fa-spotify",
+        //   source: "https://open.spotify.com/artist/1bi2oXy3vJ90R9SoK2WxQV"
+        // },
+        // {
+        //   url: "fa fa-apple",
+        //   source:
+        //     "https://music.apple.com/us/artist/sadakat-aman-khan/1516537088"
+        // },
+        // {
+        //   url: "fa fa-amazon",
+        //   source:
+        //     "https://music.amazon.com/artists/B089LXJ8J6?tab=CATALOG&ref=dm_wcp_artist_link_pr_s"
+        // },
         {
           url: "fa fa-facebook",
-          source: "https://www.facebook.com/sadakatamankhan"
+          source: "https://www.facebook.com/sahadatranakhanofficial"
         },
-        {
-          url: "fa fa-youtube-play",
-          source: "https://www.youtube.com/channel/UCvnoNGthHGqO71gKUSm1acw"
-        },
+        // {
+        //   url: "fa fa-youtube-play",
+        //   source: "https://www.youtube.com/channel/UCvnoNGthHGqO71gKUSm1acw"
+        // },
         {
           url: "fa fa-twitter",
-          source: "https://twitter.com/sadakatamankhan"
+          source: "https://www.twitter.com/sahadatranakhan"
         },
         {
           url: "fa fa-instagram",
-          source: "https://www.instagram.com/mr_harmonium/"
+          source: "https://www.instagram.com/sahadatranakhan"
         }
       ]
     };

@@ -14,19 +14,19 @@
           <div class="pb-2 icon-con">
             <i class="fa fa-phone" aria-hidden="true"></i>
             <a
-              href="tel:+91-738-456-5982"
+              href="tel:+919434166007"
               style="text-decoration: none;"
               class="link pl-3"
-            >+91 7384565982</a>
+            >+91 9434166007</a>
           </div>
 
           <div class="icon-con">
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <a
-              href="mailto:sadakatamankhan@gmail.com"
+              href="mailto:contact@sahadatranakhan.com"
               style="text-decoration: none;"
               class="link pl-2"
-            >sadakatamankhan@gmail.com</a>
+            >contact@sahadatranakhan.com</a>
           </div>
           <br />
           <br />
@@ -86,16 +86,16 @@ export default {
       icons: [
         {
           url: "fa fa-facebook",
-          source: "https://www.facebook.com/sadakatamankhan"
+          source: "https://www.facebook.com/sahadatranakhanofficial"
         },
 
         {
           url: "fa fa-twitter",
-          source: "https://twitter.com/sadakatamankhan"
+          source: "https://www.twitter.com/sahadatranakhan"
         },
         {
           url: "fa fa-instagram",
-          source: "https://www.instagram.com/mr_harmonium/"
+          source: "https://www.instagram.com/sahadatranakhan"
         }
       ]
       // valid: true,
