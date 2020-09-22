@@ -44,7 +44,7 @@ export default {
           title: "Vocal Classical Music",
           url:
             "https://firebasestorage.googleapis.com/v0/b/mr-harmonium.appspot.com/o/sahadat%20rana%20khan%2FFinal%20Cover.jpg?alt=media&token=38573819-ac47-4af1-93f7-72ecdcb33956",
-          source: ""
+          source: "https://music.youtube.com/channel/UCvMD94Gv1mxug3JEbgudlSQ"
         },
         {
           title: "Ab Na Manoon Tori Batiyan",

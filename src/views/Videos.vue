@@ -29,6 +29,7 @@ export default {
   data() {
     return {
       videos: [
+        "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F111894990556133%2Fvideos%2F1960057220796039%2F&show_text=0",
         "https://www.youtube.com/embed/eAvuLfFu4zo",
         "https://www.youtube.com/embed/-RRggfLx6_8",
         "https://www.youtube.com/embed/hJzL_3mjcu4",
@@ -38,7 +39,7 @@ export default {
         "https://www.youtube.com/embed/6q_75o4BmnU",
         "https://www.youtube.com/embed/OOd4a-vcfI4",
         "https://www.youtube.com/embed/G5YwMt8I6vQ",
-        "https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/107765344299827/videos/259806198613513/&show_text=0&width=560"
+        "https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/107765344299827/videos/259806198613513/&show_text=0"
       ]
     };
   }

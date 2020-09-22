@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-img src="@/assets/2.jpg" max-height="100vh" alt="Sadakat Aman Khan">
+    <v-img src="@/assets/2.jpg" max-height="100vh" alt="Sadakat Aman Khan" position="top top">
       <app-icon class="hidden-sm-and-down"></app-icon>
       <div class="center-heading text-center text-no-wrap">
         <app-icon class="hidden-md-and-up"></app-icon>

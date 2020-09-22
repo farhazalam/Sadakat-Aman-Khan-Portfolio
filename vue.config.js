@@ -5,11 +5,11 @@ module.exports = {
     pwa: {
         name: 'Sahadat Rana Khan',
         iconPaths: {
-            favicon32: 'favicon2.png',
-            favicon16: 'favicon2.png',
-            appleTouchIcon: 'favicon2.png',
-            maskIcon: 'favicon2.png',
-            msTileImage: 'favicon2.png',
+            favicon32: 'favicon.png',
+            favicon16: 'favicon.png',
+            appleTouchIcon: 'favicon.png',
+            maskIcon: 'favicon.png',
+            msTileImage: 'favicon.png',
         }
     },
     // publicPath: process.env.NODE_ENV === "production" ? "/dist/" : "/",
